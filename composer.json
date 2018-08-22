@@ -3,7 +3,7 @@
     "type": "contao-bundle",
     "description": "estao® Contao Immobilienlösung für Hausverwalter und Wohnungsunternehmen",
     "keywords":["contao","immobilien","immobilienScout24","expose","openimmo","real estate"],
-    "license": "Commercial",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Christian Barkowsky",
