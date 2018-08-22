@@ -1,0 +1,22 @@
+{
+    "name": "estao-immo/estao",
+    "type": "contao-bundle",
+    "description": "estao® Contao Immobilienlösung für Hausverwalter und Wohnungsunternehmen",
+    "keywords":["contao","immobilien","immobilienScout24","expose","openimmo","real estate"],
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "Christian Barkowsky",
+            "homepage": "https://brkwsky.de/",
+            "role": "Developer"
+        },
+        {
+            "name": "Tino Kramm",
+            "homepage": "https://www.tinokramm.de/"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "contao/core-bundle": "^4.4"
+    }
+}
