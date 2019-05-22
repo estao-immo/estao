@@ -35,7 +35,6 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser): array
     {
         return [
-            //BundleConfig::create(EstaoInfoBundle::class)->setLoadAfter([ContaoCoreBundle::class]),
             BundleConfig::create('Estao\Info\EstaoInfoBundle')->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
