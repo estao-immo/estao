@@ -18,7 +18,6 @@ declare(strict_types=1);
 
 namespace Estao\InfoBundle;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
@@ -26,10 +25,4 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  */
 class EstaoInfoBundle extends Bundle
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function build(ContainerBuilder $container): void
-    {
-    }
 }
