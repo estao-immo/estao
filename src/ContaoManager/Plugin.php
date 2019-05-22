@@ -16,7 +16,7 @@ declare(strict_types=1);
  * @license proprietary
  */
 
-namespace Estao\InfoBundle\ContaoManager;
+namespace Estao\Info\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -36,7 +36,7 @@ class Plugin implements BundlePluginInterface
     {
         return [
             //BundleConfig::create(EstaoInfoBundle::class)->setLoadAfter([ContaoCoreBundle::class]),
-            BundleConfig::create('Estao\InfoBundle\EstaoInfoBundle')->setLoadAfter([ContaoCoreBundle::class]),
+            BundleConfig::create('Estao\Info\EstaoInfoBundle')->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
 }

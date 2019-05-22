@@ -16,7 +16,7 @@ declare(strict_types=1);
  * @license proprietary
  */
 
-namespace Estao\InfoBundle;
+namespace Estao\Info;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

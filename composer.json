@@ -24,10 +24,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Estao\\InfoBundle\\": "src/"
+            "Estao\\Info\\": "src/"
         }
     },
     "extra": {
-        "contao-manager-plugin": "Estao\\InfoBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Estao\\Info\\ContaoManager\\Plugin"
     }
 }
