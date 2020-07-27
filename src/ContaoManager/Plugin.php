@@ -5,7 +5,7 @@ declare(strict_types=1);
 /**
  * estao®
  *
- * Copyright (C) 2012-2019 Christian Barkowsky & Tino Kramm
+ * Copyright (C) 2012-2020 Christian Barkowsky & Tino Kramm
  *
  * @package estao
  *
@@ -18,6 +18,7 @@ declare(strict_types=1);
 
 namespace Estao\Info\ContaoManager;
 
+use Estao\Info\EstaoInfoBundle;
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
@@ -35,7 +36,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser): array
     {
         return [
-            BundleConfig::create('Estao\Info\EstaoInfoBundle')->setLoadAfter([ContaoCoreBundle::class]),
+            BundleConfig::create(EstaoInfoBundle::class)->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
 }

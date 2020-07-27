@@ -7,17 +7,23 @@
     "authors": [
         {
             "name": "Christian Barkowsky",
-            "homepage": "https://brkwsky.de/",
+            "homepage": "https://brkwsky.de",
             "role": "Developer"
         },
         {
             "name": "Tino Kramm",
-            "homepage": "https://www.tinokramm.de/"
+            "homepage": "https://www.tinokramm.de",
+            "role": "Designer"
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.2",
         "contao/core-bundle": "^4.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5.2",
+        "contao/test-case": "^4.0.0",
+        "symfony/phpunit-bridge": "^4"
     },
     "conflict": {
         "contao/manager-plugin": "<2.0 || >=3.0"
