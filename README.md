@@ -16,5 +16,5 @@ Importieren Sie Ihre Verkaufsobjekte mittels OpenImmo-Schnittstelle automatisier
 ## Suchabos
 Mit Suchabos vermarkten Sie Ihre Objekte noch schneller. Interessenten erhalten verfügbare Angebote automatisiert per E-Mail, sobald diese auf der Website veröffentlicht werden.
 
-###Demo
+## Demo
 Auf [estao.de](https://estao.de) finden Sie Demo, Preise, Referenzen und Infos.
