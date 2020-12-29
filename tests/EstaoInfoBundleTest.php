@@ -26,6 +26,7 @@ class EstaoInfoBundleTest extends TestCase
     public function testCanBeInstantiated(): void
     {
         $bundle = new EstaoInfoBundle();
+
         $this->assertInstanceOf('Estao\Info\EstaoInfoBundle', $bundle);
     }
 }

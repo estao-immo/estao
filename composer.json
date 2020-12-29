@@ -41,6 +41,11 @@
             "Estao\\Info\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Estao\\Info\\Tests\\": "tests/"
+        }
+    },
     "extra": {
         "contao-manager-plugin": "Estao\\Info\\ContaoManager\\Plugin"
     }

@@ -26,7 +26,7 @@ use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 
 /**
  * Class Plugin
- * @package Estao\Info
+ * @package Estao\Info\ContaoManager
  */
 class Plugin implements BundlePluginInterface
 {
@@ -36,7 +36,8 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser): array
     {
         return [
-            BundleConfig::create(EstaoInfoBundle::class)->setLoadAfter([ContaoCoreBundle::class]),
+            BundleConfig::create(EstaoInfoBundle::class)
+                ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
 }
