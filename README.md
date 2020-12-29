@@ -1,6 +1,4 @@
-# estao® Immobilienlösung für Vermieter und Makler
-
-![estao® Logo](/docs/logo-square.svg)
+# ![estao® Logo](/docs/logo-square.svg) estao® Immobilienlösung für Vermieter und Makler
 
 Vermarkten Sie Immobilien zur Miete und zum Kauf mit den Versionen 4.4 und 4.9 des Contao CMS.
 Websites für Makler und Wohnungsunternehmen waren noch nie so einfach und schön.  
