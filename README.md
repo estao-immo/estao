@@ -21,4 +21,4 @@ Mit Suchabos vermarkten Sie Ihre Objekte noch schneller. Interessenten erhalten 
 ## Demo
 ![estao® Logo](/docs/logo-square.svg)
 
-Auf [estao.de](https://estao.de) finden Sie Demo, Preise, Referenzen und Infos.
+Auf [estao.de](https://estao.de) finden Sie Demo, Preise, Referenzen und weitere Infos.
