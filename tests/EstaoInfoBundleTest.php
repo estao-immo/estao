@@ -5,7 +5,7 @@ declare(strict_types=1);
 /**
  * estao®
  *
- * Copyright (C) 2012-2020 Christian Barkowsky
+ * Copyright (C) 2012-2021 Christian Barkowsky
  *
  * @package estao
  *

@@ -2,7 +2,7 @@
     "name": "estao-immo/estao",
     "type": "contao-bundle",
     "description": "estao® Contao Immobilienlösung für Hausverwalter und Wohnungsunternehmen",
-    "keywords":["contao","immobilien","immobilienScout24","expose","openimmo","realestate", "estate", "property"],
+    "keywords": ["contao","immobilien","immobilienScout24","expose","openimmo","realestate", "estate", "property"],
     "homepage": "https://estao.de",
     "license": "proprietary",
     "authors": [
@@ -22,18 +22,21 @@
         "docs": "https://estao.de"
     },
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "contao/core-bundle": "^4.4"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0",
-        "friendsofphp/php-cs-fixer": "^2.12",
-        "phpunit/phpunit": "^8.5.2",
-        "contao/test-case": "^4.0.0",
-        "symfony/phpunit-bridge": "^4"
+        "phpunit/phpunit": "^9.5.10",
+        "contao/test-case": "^4.4.0",
+        "symfony/phpunit-bridge": "v5.3",
+        "phpstan/phpstan": "^0.12.99",
+        "phpstan/phpstan-symfony": "^0.12.44",
+        "contao/phpstan": "^0.12.9",
+        "phpstan/phpstan-phpunit": "^0.12.22",
+        "friendsofphp/php-cs-fixer": "^3.2"
     },
     "conflict": {
-        "contao/core": "*",
         "contao/manager-plugin": "<2.0 || >=3.0"
     },
     "autoload": {
