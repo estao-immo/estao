@@ -1,6 +1,6 @@
 # estao® Immobilienlösung für Vermieter und Makler
 
-Vermarkten Sie Immobilien zur Miete und zum Kauf mit den Versionen 4.4 und 4.9 des Contao CMS.
+Vermarkten Sie Immobilien zur Miete und zum Kauf mit den Versionen 4.4 und 4.9 (und höher) des Contao CMS.
 Websites für Makler und Wohnungsunternehmen waren noch nie so einfach und schön.  
 
 Die Immobilien-Erweiterung estao®️ präsentiert Ihre Exposés optimal – auch auf mobilen Geräten. Das mitgelieferte Theme macht es möglich. Mehrsprachige Websites sind kein Problem.
