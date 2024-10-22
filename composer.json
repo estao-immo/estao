@@ -22,8 +22,8 @@
         "docs": "https://estao.de"
     },
     "require": {
-        "php": "^7.4 || ^8.0",
-        "contao/core-bundle": "^4.4"
+        "php": "^8.1",
+        "contao/core-bundle": "^4.13 || ^5.3"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0",
